@@ -1,5 +1,6 @@
 # webapp-hadoop
 Sample web application to demo connecting to multiple Hadoop secure clusters (HDFS, HBase, Phoenix)
+
 #Problem:
 Resource and classpath conflict when conncting hadoop clusters via single web application.
 
@@ -38,5 +39,7 @@ cluster.b.hbase.keytab=/tmp/clusterb/hbase.headless.keytab
 cluster.b.hbase.princpal=hbase-kphdp25@KP25.COM
 
 5)Deploy generated war file under "<tomcat path>/webapp/"
+
 6)http://<tomcat ip:port>/webapp-hadoop/
+
 7)Done!!
