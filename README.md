@@ -1,13 +1,13 @@
 # webapp-hadoop
 Sample web application to demo connecting to multiple Hadoop secure clusters (HDFS, HBase, Phoenix)
 
-#Problem:
+# Problem:
 Resource and classpath conflict when conncting hadoop clusters via single web application.
 
-#Solution:
+# Solution:
 This web application will demo for loading the resources specif to the components and clusters
 
-#Steps to Run:
+# Steps to Run:
 
 1) Download webapp to local
 
