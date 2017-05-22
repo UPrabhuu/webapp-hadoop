@@ -1,7 +1,7 @@
 # webapp-hadoop
-Sample Web Application - Connecting to multi secure clusters (HDFS, HBase, Phoenix) via single webapp container
+Sample Web Application - Connecting to multi secure clusters (HADOOP/HDFS, HBase, Phoenix) via single webapp container
 
-Note: ConfigurationManager.java 
+Note: webapp-hadoop/src/main/java/com/hwx/connection/ConfigurationManager.java
 
 ## Steps to Run:
 
