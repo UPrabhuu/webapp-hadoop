@@ -8,14 +8,22 @@ Resource and classpath conflict when conncting hadoop clusters via single web ap
 This web application will demo for loading the resources specif to the components and clusters
 
 #Steps to Run:
+
 1) Download webapp to local
+
 2) Build this project
+
 $mvn clean install
+
 3)Create the property file "/var/node.properties" in tomcat machine.
+
 4)Add cluster/connection details to this.
+
 example:
 $ cat /var/node.properties
 #Cluster(A) HBase and HDFS
+
+
 cluster.a.hadoop.coresite=/etc/hadoop/conf/core-site.xml
 cluster.a.hadoop.hdfssite=/etc/hadoop/conf/hdfs-site.xml
 cluster.a.hbase.hbasesite=/etc/hbase/conf/hbase-site.xml
