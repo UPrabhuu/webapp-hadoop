@@ -1,5 +1,5 @@
 # webapp-hadoop
-Sample Web Application - Connecting to multi Hadoop secure clusters (HDFS, HBase, Phoenix) via single webapp container
+Sample Web Application - Connecting to multi secure clusters (HDFS, HBase, Phoenix) via single webapp container
 
 Note: ConfigurationManager.java 
 
@@ -27,7 +27,7 @@ cluster.a.hadoop.hdfssite=/etc/hadoop/conf/hdfs-site.xml
 
 cluster.a.hbase.hbasesite=/etc/hbase/conf/hbase-site.xml
 
-#Secure details
+#Secure detail
 
 cluster.a.krb5.conf=/etc/hadoop/conf/krb5.conf
 
@@ -47,7 +47,7 @@ cluster.b.hadoop.hdfssite=/tmp/clusterb/hdfs-site.xml
 
 cluster.b.hbase.hbasesite=/tmp/clusterb/hbase-site.xml
 
-#Secure details
+#Secure detail
 
 cluster.b.krb5.conf=/tmp/clusterb/krb5.conf
 
