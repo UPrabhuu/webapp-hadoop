@@ -1,11 +1,7 @@
 # webapp-hadoop
-Sample web application to demo connecting to multiple Hadoop secure clusters (HDFS, HBase, Phoenix)
+Sample Web Application - Connecting to multi Hadoop secure clusters (HDFS, HBase, Phoenix) via single webapp container
 
-## Problem:
-Resource and classpath conflict when conncting to hadoop clusters via single web application.
-
-## Solution:
- Ref - ConfigurationManager.java - Creating configuration objects individually to hadoop conponents
+Note: ConfigurationManager.java 
 
 ## Steps to Run:
 
@@ -15,7 +11,7 @@ Resource and classpath conflict when conncting to hadoop clusters via single web
 
 $mvn clean install
 
-#### 3) Create the property file "/var/node.properties" in tomcat machine.
+#### 3) Create the property file "/var/node.properties" in tomcat machine
 
 #### 4) Add cluster/connection details to this.
 
@@ -61,8 +57,8 @@ cluster.b.hbase.keytab=/tmp/clusterb/hbase.headless.keytab
 
 cluster.b.hbase.princpal=hbase-kphdp25@KP25.COM
 
-#### 5)Deploy generated war file under "<tomcat path>/webapp/"
+#### 5)Deploy generated war file under "tomcat-path/webapp/"
 
-#### 6)http://<tomcat ip:port>/webapp-hadoop/
+#### 6)http://tomcat-ip:port/webapp-hadoop/
 
 7)Done!!
